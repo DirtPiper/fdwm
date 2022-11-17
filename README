@@ -1,8 +1,8 @@
 
 
 FDWM is a lightweight window manager for X11. It is derived from EMWM, 
-itself derived from MWM, which added support for UTF-8, Xinerama and 
-Extended Window Manager Hints to MWM.
+which added support for UTF-8, Xinerama and Extended Window Manager Hints 
+to MWM.
 
 FDWM seeks to be a visually and functionally faithful clone of IRIX's
 4dwm/Four Dimensional Window Manager. To be used in conjuction with
