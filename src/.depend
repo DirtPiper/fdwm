@@ -1,0 +1,94 @@
+WmCDInfo.o: WmCDInfo.c WmGlobal.h WmCDInfo.h
+WmCDecor.o: WmCDecor.c WmGlobal.h WmXSMP.h WmCDecor.h WmCDInfo.h \
+ WmError.h WmGraphics.h WmIconBox.h WmMenu.h WmWinInfo.h WmXinerama.h
+WmCEvent.o: WmCEvent.c WmGlobal.h WmICCC.h WmCEvent.h WmCDecor.h \
+ WmColormap.h WmEvent.h WmFeedback.h WmFunction.h WmIDecor.h WmKeyFocus.h \
+ WmManage.h WmMenu.h WmProperty.h WmProtocol.h WmWinConf.h WmWinInfo.h \
+ WmWinList.h WmWinState.h WmEwmh.h WmXinerama.h
+WmCPlace.o: WmCPlace.c WmGlobal.h WmCDInfo.h WmCDecor.h WmFeedback.h \
+ WmWinConf.h
+WmColormap.o: WmColormap.c WmGlobal.h WmColormap.h WmKeyFocus.h
+WmError.o: WmError.c WmGlobal.h WmXSMP.h WmError.h
+WmEvent.o: WmEvent.c WmGlobal.h WmEvent.h WmCDInfo.h WmCDecor.h \
+ WmCEvent.h WmColormap.h WmFunction.h WmKeyFocus.h WmManage.h WmMenu.h \
+ WmWinInfo.h WmWinState.h
+WmFeedback.o: WmFeedback.c WmGlobal.h WmResNames.h WmXmP.h WmBitmap.h \
+ WmFeedback.h WmFunction.h WmGraphics.h WmManage.h WmColormap.h WmError.h \
+ WmXinerama.h
+WmFunction.o: WmFunction.c WmGlobal.h WmICCC.h WmFunction.h WmCEvent.h \
+ WmCDInfo.h WmColormap.h WmError.h WmEvent.h WmFeedback.h WmIPlace.h \
+ WmIconBox.h WmKeyFocus.h WmMenu.h WmProperty.h WmProtocol.h WmResParse.h \
+ WmWinConf.h WmWinInfo.h WmWinList.h WmWinState.h WmXSMP.h WmCmd.h \
+ WmWsmLib/wsm_proto.h WmWsmLib/wsm_funcs.h WmEwmh.h
+WmGraphics.o: WmGraphics.c WmGlobal.h WmGraphics.h WmError.h
+WmIDecor.o: WmIDecor.c WmGlobal.h WmIDecor.h WmError.h WmGraphics.h \
+ WmIconBox.h WmMenu.h WmWinInfo.h
+WmIPlace.o: WmIPlace.c WmGlobal.h WmError.h WmIDecor.h WmIconBox.h \
+ WmWinConf.h WmIPlace.h
+WmIconBox.o: WmIconBox.c WmGlobal.h WmIBitmap.h WmResNames.h WmIconBox.h \
+ WmCDInfo.h WmError.h WmEvent.h WmFunction.h WmIDecor.h WmIPlace.h \
+ WmImage.h WmManage.h WmMenu.h WmResParse.h WmResource.h WmWinInfo.h
+WmKeyFocus.o: WmKeyFocus.c WmGlobal.h WmKeyFocus.h WmCDecor.h \
+ WmColormap.h WmEvent.h WmCEvent.h WmFunction.h WmIDecor.h WmProtocol.h \
+ WmWinInfo.h WmWinList.h WmEwmh.h
+WmMain.o: WmMain.c WmGlobal.h WmCEvent.h WmEvent.h WmInitWs.h
+WmManage.o: WmManage.c WmGlobal.h WmICCC.h WmCDecor.h WmCEvent.h \
+ WmColormap.h WmError.h WmEvent.h WmFunction.h WmGraphics.h WmIDecor.h \
+ WmIconBox.h WmImage.h WmKeyFocus.h WmManage.h WmMenu.h WmProperty.h \
+ WmProtocol.h WmWinInfo.h WmWinList.h WmWinState.h WmXSMP.h
+WmProperty.o: WmProperty.c WmGlobal.h WmICCC.h WmColormap.h WmError.h \
+ WmResParse.h WmProperty.h
+WmResCvt.o: WmResCvt.c WmGlobal.h WmResNames.h WmResParse.h WmResCvt.h
+WmResParse.o: WmResParse.c WmGlobal.h WmResNames.h WmResource.h \
+ WmWinConf.h WmXmP.h WmResParse.h WmError.h WmFunction.h WmImage.h \
+ WmXSMP.h
+WmResource.o: WmResource.c WmGlobal.h WmResNames.h WmIBitmap.h \
+ WmResource.h WmError.h WmGraphics.h WmMenu.h WmResParse.h WmXSMP.h
+WmSignal.o: WmSignal.c WmGlobal.h WmFeedback.h WmFunction.h WmSignal.h
+WmWinConf.o: WmWinConf.c WmGlobal.h WmWinConf.h WmCDInfo.h WmCDecor.h \
+ WmCPlace.h WmEvent.h WmFeedback.h WmFunction.h WmIDecor.h WmIPlace.h \
+ WmIconBox.h WmKeyFocus.h WmProtocol.h WmWinInfo.h WmXinerama.h WmEwmh.h
+WmWinInfo.o: WmWinInfo.c WmGlobal.h WmICCC.h WmResNames.h WmIBitmap.h \
+ WmWinInfo.h WmCDInfo.h WmCDecor.h WmCPlace.h WmError.h WmIDecor.h \
+ WmIPlace.h WmIconBox.h WmImage.h WmManage.h WmMenu.h WmProperty.h \
+ WmResource.h WmWinList.h WmXSMP.h WmXinerama.h WmEwmh.h
+WmWinList.o: WmWinList.c WmGlobal.h WmBitmap.h WmWinList.h WmCEvent.h \
+ WmFunction.h WmKeyFocus.h WmMenu.h WmResource.h WmWinInfo.h WmEvent.h \
+ WmICCC.h WmProperty.h WmEwmh.h
+WmWinState.o: WmWinState.c WmGlobal.h WmICCC.h WmProtocol.h WmCDecor.h \
+ WmFunction.h WmIDecor.h WmIPlace.h WmIconBox.h WmKeyFocus.h WmManage.h \
+ WmProperty.h WmWinInfo.h WmWinList.h WmEwmh.h WmWinState.h
+WmWsm.o: WmWsm.c WmGlobal.h WmWsmLib/wsm_proto.h WmWsmLib/wsm_funcs.h
+WmXSMP.o: WmXSMP.c WmGlobal.h WmXSMP.h
+WmCmd.o: WmCmd.c WmWsmLib/utm_send.h WmWsmLib/wsm_proto.h \
+ WmWsmLib/wsm_funcs.h WmGlobal.h WmFunction.h WmCmd.h \
+ WmWsmLib/wsm_proto.h WmMenu.h WmResParse.h WmWsm.h WmDebug.h WmWinConf.h \
+ WmFeedback.h
+WmImage.o: WmImage.c WmGlobal.h WmIBitmap.h WmImage.h WmGraphics.h \
+ WmResource.h WmResParse.h WmMenu.h WmError.h
+WmInitWs.o: WmInitWs.c WmGlobal.h WmResNames.h WmICCC.h WmOL.h WmCDInfo.h \
+ WmColormap.h WmError.h WmEvent.h WmFeedback.h WmFunction.h WmIDecor.h \
+ WmIPlace.h WmIconBox.h WmKeyFocus.h WmManage.h WmMenu.h WmProperty.h \
+ WmResCvt.h WmResource.h WmSignal.h WmProtocol.h WmCDecor.h WmResParse.h \
+ WmXSMP.h WmXmP.h WmXinerama.h WmEwmh.h WmInitWs.h WmWsmLib/wsm_proto.h \
+ WmWsmLib/wsm_funcs.h WmWsmLib/utm_send.h
+WmMenu.o: WmMenu.c WmGlobal.h WmCEvent.h WmResource.h WmResParse.h \
+ WmDebug.h WmMenu.h WmCDecor.h WmColormap.h WmEvent.h WmFunction.h \
+ WmIconBox.h WmImage.h WmError.h
+WmProtocol.o: WmProtocol.c WmGlobal.h WmICCC.h WmError.h WmFunction.h \
+ WmKeyFocus.h WmMenu.h WmWinInfo.h WmEvent.h WmCmd.h WmWsmLib/wsm_proto.h \
+ WmWsmLib/wsm_funcs.h WmDebug.h WmProtocol.h
+WmXinerama.o: WmXinerama.c WmGlobal.h WmError.h
+WmEwmh.o: WmEwmh.c WmGlobal.h WmError.h WmImage.h WmCDInfo.h WmCDecor.h \
+ WmXinerama.h WmKeyFocus.h WmIDecor.h WmCEvent.h WmWinConf.h WmFunction.h \
+ WmProtocol.h WmEwmh.h
+debug.o: WmWsmLib/debug.c WmWsmLib/wsm_proto.h WmWsmLib/wsm_funcs.h
+disp.o: WmWsmLib/disp.c WmWsmLib/wsm_proto.h WmWsmLib/wsm_funcs.h
+free.o: WmWsmLib/free.c WmWsmLib/wsm_proto.h WmWsmLib/wsm_funcs.h
+pack.o: WmWsmLib/pack.c WmWsmLib/wsm_proto.h WmWsmLib/wsm_funcs.h
+recv.o: WmWsmLib/recv.c WmWsmLib/wsm_proto.h WmWsmLib/wsm_funcs.h \
+ WmWsmLib/utm_send.h
+send.o: WmWsmLib/send.c WmWsmLib/wsm_proto.h WmWsmLib/wsm_funcs.h \
+ WmWsmLib/utm_send.h
+util.o: WmWsmLib/util.c WmWsmLib/wsm_proto.h WmWsmLib/wsm_funcs.h
+utm_send.o: WmWsmLib/utm_send.c WmWsmLib/utm_send.h
